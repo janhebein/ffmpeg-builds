@@ -9,7 +9,8 @@ ffbuild_depends() {
 }
 
 ffbuild_enabled() {
-    return 0
+    # Somefield: off (flagged by the licence audit).
+    return -1
 }
 
 ffbuild_dockerbuild() {

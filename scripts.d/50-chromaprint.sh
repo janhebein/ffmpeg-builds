@@ -9,8 +9,8 @@ ffbuild_depends() {
 }
 
 ffbuild_enabled() {
-    (( $(ffbuild_ffver) >= 600 )) || return -1
-    return 0
+    # Somefield: off, it links FFTW (GPL) into avformat.
+    return -1
 }
 
 ffbuild_dockerbuild() {

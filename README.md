@@ -1,3 +1,10 @@
+> **This is a modified copy of [BtbN/FFmpeg-Builds](https://github.com/BtbN/FFmpeg-Builds)** at commit
+> [`6c9aec5`](https://github.com/BtbN/FFmpeg-Builds/tree/6c9aec5fc9a72ec3abedd1fa84db141fa18cf52b), kept to build the
+> FFmpeg that the Somefield desktop app ships. It is not BtbN's project and gets no updates from it.
+> Changes: chromaprint (it links FFTW, which is GPL) and zvbi are switched off, FFmpeg is pinned to commit
+> [`2a571b6068`](https://github.com/FFmpeg/FFmpeg/commit/2a571b606854520cf89804d8030c8b328e621689), and the workflow
+> runs only by hand, for win64 lgpl-shared 9.0. Everything else is BtbN's, under the MIT licence in `LICENSE`.
+
 # FFmpeg Static Auto-Builds
 
 Static Windows (x86_64) and Linux (x86_64) Builds of ffmpeg master and latest release branch.
